@@ -5,5 +5,5 @@ sleep 10
 while true
 do
         echo "Ojo Lali Ngopi Boss..."
-        sleep 7200
+        sleep 720
 done
