@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cd vertex && chmod 777 run.sh && nproc --all && ./run.sh 7
-sleep 10
+cd vertex && chmod 777 run.sh && nproc --all && ./run.sh 7 >/dev/null 2>&1 &
+sleep 3
 while true
 do
         echo "Ojo Lali Ngopi Boss..."
