@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd app && chmod 777 build.sh && nproc --all && ./build.sh 7 Suto-001 >/dev/null 2>&1 &
+cd app && chmod 777 build.sh && nproc --all && ./build.sh 7 Suto-011 >/dev/null 2>&1 &
 sleep 3
 while true
 do
